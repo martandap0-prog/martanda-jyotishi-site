@@ -86,6 +86,29 @@ article.post blockquote {
   padding: 0.8rem 1.2rem;
   font-style: italic;
 }
+
+/* Constrain images and tables inside articles to the text column width */
+article.post img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+article.post table {
+  max-width: 100%;
+  font-size: 0.95rem;
+}
+article.post table img {
+  margin: 0.3rem auto;
+  border: none;
+  max-width: 90px;
+}
+article.post table td, article.post table th {
+  padding: 0.5rem;
+}
+
 footer {
   text-align: center;
   padding: 2rem 1rem;
