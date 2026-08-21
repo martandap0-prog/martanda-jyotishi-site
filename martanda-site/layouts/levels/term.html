@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $term := .Data.Term }}
+{{ $info := dict
+  "beginner" (dict "title" "For Absolute Beginners" "desc" "No prior knowledge assumed — start here if you're new to Jyotiṣa." "img" "/images/site/badge_beginner.png")
+  "intermediate" (dict "title" "Going a Little Deeper" "desc" "For readers comfortable with the basics, ready for more nuance and technique." "img" "/images/site/badge_intermediate.png")
+  "research" (dict "title" "Research & Advanced Study" "desc" "In-depth, source-grounded pieces for serious students and practitioners." "img" "/images/site/badge_research.png")
+}}
+{{ $meta := index $info $term | default (dict "title" .Title "desc" "" "img" "/images/site/badge_beginner.png") }}
+
+<div class="level-banner">
+  <img src="{{ $meta.img | relURL }}" alt="">
+  <h1>{{ $meta.title }}</h1>
+  <p>{{ $meta.desc }}</p>
+</div>
+
+{{ range .Pages.ByDate.Reverse }}
+<div class="post-list-item">
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <div class="meta">{{ .Date.Format "2 January 2006" }}{{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}</div>
+  <div class="summary">{{ .Params.summary }}</div>
+</div>
+{{ else }}
+<p style="text-align:center; opacity:0.7;">No articles here yet — check back soon.</p>
+{{ end }}
+{{ end }}

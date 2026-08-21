@@ -14,7 +14,10 @@
   </header>
   <nav class="site-nav">
     <a href="{{ "/" | relURL }}">Home</a>
-    <a href="{{ "/posts/" | relURL }}">Articles</a>
+    <a href="{{ "/posts/" | relURL }}">All Articles</a>
+    <a href="{{ "/levels/beginner/" | relURL }}">Beginners</a>
+    <a href="{{ "/levels/intermediate/" | relURL }}">Going Deeper</a>
+    <a href="{{ "/levels/research/" | relURL }}">Research</a>
   </nav>
   <main>
     {{ block "main" . }}{{ end }}

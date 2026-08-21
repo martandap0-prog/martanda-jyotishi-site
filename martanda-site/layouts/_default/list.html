@@ -1,10 +1,10 @@
 {{ define "main" }}
-<h1 style="color:var(--navy);">Articles</h1>
+<h1 style="color:var(--peacock-dark);">Articles</h1>
 {{ range .Pages.ByDate.Reverse }}
 <div class="post-list-item">
   <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
   <div class="meta">{{ .Date.Format "2 January 2006" }}{{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}</div>
-  <div class="summary">{{ .Summary | plainify | truncate 200 }}</div>
+  <div class="summary">{{ .Params.summary }}</div>
 </div>
 {{ end }}
 {{ end }}

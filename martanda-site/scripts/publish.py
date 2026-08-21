@@ -3,7 +3,7 @@
 Mārtaṇḍa Jyotiṣī — one-command article publisher.
 
 Usage:
-    python scripts/publish.py "My Article Title" path/to/article.docx --tags Navamsa,Vivaha
+    python scripts/publish.py "My Article Title" path/to/article.docx --tags Navamsa,Vivaha --level beginner
     python scripts/publish.py "My Article Title" path/to/article.md --tags Navamsa
     python scripts/publish.py "Draft Title" article.docx --draft
 
@@ -183,7 +183,7 @@ def docx_to_markdown(path: Path, slug: str) -> str:
     return "\n\n".join(blocks) + "\n"
 
 
-def build_frontmatter(title: str, tags: list[str], summary: str, draft: bool) -> str:
+def build_frontmatter(title: str, tags: list[str], summary: str, draft: bool, level: str) -> str:
     date_str = datetime.date.today().isoformat()
     tags_str = ", ".join(f'"{t.strip()}"' for t in tags if t.strip())
     fm = [
@@ -191,6 +191,7 @@ def build_frontmatter(title: str, tags: list[str], summary: str, draft: bool) ->
         f'title: "{title}"',
         f"date: {date_str}",
         f"tags: [{tags_str}]",
+        f'levels: ["{level}"]',
         f'summary: "{summary}"',
         f"draft: {str(draft).lower()}",
         "---",
@@ -215,6 +216,8 @@ def main():
     p.add_argument("source", help="Path to the .docx or .md source file")
     p.add_argument("--tags", default="", help="Comma-separated tags, e.g. Navamsa,Vivaha")
     p.add_argument("--summary", default="", help="One-line summary (optional; auto-generated if omitted)")
+    p.add_argument("--level", default="beginner", choices=["beginner", "intermediate", "research"],
+                   help="Difficulty tier: beginner, intermediate, or research (default: beginner)")
     p.add_argument("--draft", action="store_true", help="Save as a draft (not published live)")
     p.add_argument("--no-push", action="store_true", help="Skip git commit/push, just generate the file locally")
     args = p.parse_args()
@@ -237,27 +240,10 @@ def main():
     tags = args.tags.split(",") if args.tags else []
 
     out_path = POSTS_DIR / f"{slug}.md"
-    frontmatter = build_frontmatter(args.title, tags, summary, args.draft)
+    frontmatter = build_frontmatter(args.title, tags, summary, args.draft, args.level)
     out_path.write_text(frontmatter + body, encoding="utf-8")
     print(f"Written: {out_path}")
     if (IMAGES_ROOT / slug).exists():
         n_images = len(list((IMAGES_ROOT / slug).iterdir()))
         if n_images:
             print(f"Saved {n_images} image(s) to: {IMAGES_ROOT / slug}")
-
-    if args.no_push:
-        print("Skipped git push (--no-push set). Run `hugo server` to preview locally.")
-        return
-
-    run(["git", "add", "-A"], cwd=SITE_ROOT)
-    status = "draft" if args.draft else "published"
-    run(["git", "commit", "-m", f"Add article: {args.title} ({status})"], cwd=SITE_ROOT)
-    ok = run(["git", "push"], cwd=SITE_ROOT)
-    if ok:
-        print(f"\nPushed. Your site will rebuild automatically — live in 1-2 minutes.")
-    else:
-        print("\nPush failed — check that 'git remote' is set to your GitHub repo (see README).")
-
-
-if __name__ == "__main__":
-    main()

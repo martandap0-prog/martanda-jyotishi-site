@@ -1,5 +1,10 @@
 {{ define "main" }}
 <article class="post">
+  {{ with .Params.levels }}
+    {{ $lvl := index . 0 }}
+    {{ $label := cond (eq $lvl "beginner") "Beginner" (cond (eq $lvl "intermediate") "Intermediate" "Research") }}
+    <span class="level-chip">{{ $label }}</span>
+  {{ end }}
   <h1>{{ .Title }}</h1>
   <div class="meta">{{ .Date.Format "2 January 2006" }}{{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}</div>
   {{ .Content }}
