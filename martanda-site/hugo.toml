@@ -1,7 +1,6 @@
 baseURL = "https://martandajyotishi.com/"
 languageCode = "en-us"
 title = "Mārtaṇḍa Jyotiṣī"
-theme = ""
 
 [params]
   tagline = "Classical Jyotiṣa — Parāśara & Jaimini Traditions"
