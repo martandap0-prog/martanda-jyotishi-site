@@ -1,5 +1,5 @@
 ---
-title: "What Is Vedic Jyotisa, and How Is It Different from Western Astrology"
+title: "What Is Vedic Jyotiṣa, and How Is It Different from Western Astrology?"
 date: 2026-08-21
 tags: ["Basics", "Ayanamsha", "Vedic-vs-Western"]
 levels: ["beginner"]
