@@ -87,9 +87,10 @@ article.post blockquote {
   font-style: italic;
 }
 
-/* Constrain images and tables inside articles to the text column width */
+/* Constrain images and tables inside articles to a modest fixed size */
 article.post img {
-  max-width: 100%;
+  max-width: 420px;
+  width: 100%;
   height: auto;
   display: block;
   margin: 1.5rem auto;
