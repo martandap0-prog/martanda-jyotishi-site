@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
   --navy: #1B2A4A;
   --gold: #9A7B2E;
@@ -7,7 +9,7 @@
 }
 * { box-sizing: border-box; }
 body {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Gentium Book Plus', 'Gentium Book Basic', Georgia, 'Times New Roman', serif;
   background: var(--cream);
   color: var(--ink);
   margin: 0;
