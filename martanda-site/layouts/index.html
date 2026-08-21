@@ -1,0 +1,13 @@
+{{ define "main" }}
+<p style="text-align:center; font-size:1.1rem; margin-bottom:2rem;">
+  Welcome. This is a space for classical Jyotiṣa — chart readings, lecture notes,
+  and reflections in the Parāśara and Jaimini traditions.
+</p>
+{{ range (first 10 (where .Site.RegularPages "Section" "posts")) }}
+<div class="post-list-item">
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <div class="meta">{{ .Date.Format "2 January 2006" }}{{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}</div>
+  <div class="summary">{{ .Summary | plainify | truncate 200 }}</div>
+</div>
+{{ end }}
+{{ end }}
