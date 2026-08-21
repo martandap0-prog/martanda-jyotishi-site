@@ -237,6 +237,7 @@ def main():
     plain_for_summary = re.sub(r"[#>*!\[\]()<>]", "", body)
     plain_for_summary = re.sub(r"http\S+", "", plain_for_summary)
     summary = args.summary or " ".join(plain_for_summary.split()[:30]) + "..."
+    summary = summary.replace('"', "'")
     tags = args.tags.split(",") if args.tags else []
 
     out_path = POSTS_DIR / f"{slug}.md"

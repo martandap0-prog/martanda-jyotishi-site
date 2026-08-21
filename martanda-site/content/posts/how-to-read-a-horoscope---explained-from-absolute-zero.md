@@ -3,7 +3,7 @@ title: "How to Read a Horoscope - Explained From Absolute Zero"
 date: 2026-08-21
 tags: ["Basics", "Beginner", "Houses", "Navagraha"]
 levels: ["beginner"]
-summary: "No prior knowledge assumed. If you've ever nodded along when someone mentioned their "7th house" without having any idea what that meant, this is for you. What a Horoscope Actually..."
+summary: "No prior knowledge assumed. If you've ever nodded along when someone mentioned their '7th house' without having any idea what that meant, this is for you. What a Horoscope Actually..."
 draft: false
 ---
 *No prior knowledge assumed. If you've ever nodded along when someone mentioned their "7th house" without having any idea what that meant, this is for you.*
