@@ -63,16 +63,16 @@ Both diagrams describe the exact same moment in time and the exact same Sun sitt
 
 ### 1. The Chart Diagram Itself
 
-The South Indian style shown above — also called the Śukra Cakra — uses a fixed square grid. The twelve signs always sit in the same twelve boxes, in the same order, no matter whose chart you're looking at. Only the label marking the Ascendant (Lagna) moves from chart to chart. This is different from the North Indian style, also called the Guru Cakra, which is diamond-shaped — there, the Ascendant is always fixed at the top, and it's the signs that rotate around it instead. Both differ from the Western circular wheel, where house cusps are drawn at the exact degree the Ascendant and subsequent houses fall, rather than snapping to whole sign boundaries.
+The South Indian style shown above — also called the Guru Cakra — uses a fixed square grid. The twelve signs always sit in the same twelve boxes, in the same order, no matter whose chart you're looking at. Only the label marking the Ascendant (Lagna) moves from chart to chart. This is different from the North Indian style, also called the Śukra Cakra, which is diamond-shaped — there, the Ascendant is always fixed at the top, and it's the signs that rotate around it instead. Both differ from the Western circular wheel, where house cusps are drawn at the exact degree the Ascendant and subsequent houses fall, rather than snapping to whole sign boundaries.
 
 The same Vedic (sidereal) Sun-in-Aries placement from Diagram 2 above, drawn in both regional conventions:
 
 <table style="border-collapse:collapse; width:100%; margin: 1.5rem 0;">
 <tr><td style="padding:8px; border:1px solid #ccc; text-align:center; vertical-align:middle;"><img src="/images/posts/what-is-vedic-jyotisa-and-how-is-it-different-from-western-astrology/img3.png" style="max-width:100%;"></td><td style="padding:8px; border:1px solid #ccc; text-align:center; vertical-align:middle;"><img src="/images/posts/what-is-vedic-jyotisa-and-how-is-it-different-from-western-astrology/img4.png" style="max-width:100%;"></td></tr>
-<tr><td style="padding:8px; border:1px solid #ccc; text-align:center; vertical-align:middle;">South Indian (Śukra Cakra)</td><td style="padding:8px; border:1px solid #ccc; text-align:center; vertical-align:middle;">North Indian (Guru Cakra)</td></tr>
+<tr><td style="padding:8px; border:1px solid #ccc; text-align:center; vertical-align:middle;">South Indian (Guru Cakra)</td><td style="padding:8px; border:1px solid #ccc; text-align:center; vertical-align:middle;">North Indian (Śukra Cakra)</td></tr>
 </table>
 
-The same underlying placement — Sun in Aries — drawn two different ways. The South Indian (Śukra Cakra) chart keeps the signs fixed and moves the house numbers; the North Indian (Guru Cakra) chart keeps the houses fixed — Lagna always at the top — and moves the sign numbers instead.
+The same underlying placement — Sun in Aries — drawn two different ways. The South Indian (Guru Cakra) chart keeps the signs fixed and moves the house numbers; the North Indian (Śukra Cakra) chart keeps the houses fixed — Lagna always at the top — and moves the sign numbers instead.
 
 ### 2. Whole-Sign Houses and the Use of Cusps
 
