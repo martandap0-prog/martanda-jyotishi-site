@@ -247,3 +247,20 @@ def main():
         n_images = len(list((IMAGES_ROOT / slug).iterdir()))
         if n_images:
             print(f"Saved {n_images} image(s) to: {IMAGES_ROOT / slug}")
+
+    if args.no_push:
+        print("Skipped git push (--no-push set). Run `hugo server` to preview locally.")
+        return
+
+    run(["git", "add", "-A"], cwd=SITE_ROOT)
+    status = "draft" if args.draft else "published"
+    run(["git", "commit", "-m", f"Add article: {args.title} ({status})"], cwd=SITE_ROOT)
+    ok = run(["git", "push"], cwd=SITE_ROOT)
+    if ok:
+        print(f"\nPushed. Your site will rebuild automatically — live in 1-2 minutes.")
+    else:
+        print("\nPush failed — check that 'git remote' is set to your GitHub repo (see README).")
+
+
+if __name__ == "__main__":
+    main()
