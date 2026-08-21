@@ -2,6 +2,7 @@
 title: "Understanding the Navāṃśa Chart"
 date: 2026-08-21
 tags: ["Navamsa", "Vivaha", "Basics"]
+levels: ["intermediate"]
 summary: "An introduction to the D9 chart — why it matters as much as, sometimes more than, the Rāśi chart itself."
 draft: false
 ---

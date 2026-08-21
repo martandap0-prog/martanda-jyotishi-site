@@ -2,6 +2,7 @@
 title: "What Is Vedic Jyotisa, and How Is It Different from Western Astrology"
 date: 2026-08-21
 tags: ["Basics", "Ayanamsha", "Vedic-vs-Western"]
+levels: ["beginner"]
 summary: "A worked example: why the Sun in your Vedic chart may sit one sign earlier than in your Western horoscope If you've ever compared your Western sun sign to your..."
 draft: false
 ---
