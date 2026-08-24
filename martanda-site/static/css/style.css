@@ -21,13 +21,14 @@ body {
 
 /* ---------- Header ---------- */
 header.site-header {
-  background-image: url('/images/site/hero_banner.png');
-  background-size: cover;
-  background-position: center;
   color: #fff;
   padding: 3rem 1rem 2.6rem;
   text-align: center;
   position: relative;
+  min-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header.site-header::after {
   content: "";
@@ -227,4 +228,33 @@ footer {
   font-style: italic;
   border-top: 1px solid var(--gold-light);
   background: var(--peacock-light);
+}
+
+/* ---------- Starfield header animation ---------- */
+header.site-header {
+  background: none !important;
+  overflow: hidden;
+}
+.starfield-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.starfield-wrap svg { width: 100%; height: 100%; }
+header.site-header .header-content {
+  position: relative;
+  z-index: 1;
+}
+.tw {
+  animation-name: twinkle;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: center;
+}
+@keyframes twinkle {
+  0%, 100% { opacity: 0.25; transform: scale(0.85); }
+  50% { opacity: 1; transform: scale(1.15); }
 }
