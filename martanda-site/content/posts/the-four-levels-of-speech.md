@@ -2,7 +2,7 @@
 title: "The Four Levels of Speech — Parā, Paśyantī, Madhyamā, Vaikharī"
 date: 2026-10-13
 tags: ["Vak", "Mantra", "Bhartrhari", "Sarasvati", "Vedic-Wisdom"]
-levels: ["research"]
+levels: ["intermediate"]
 summary: "How the Ṛgveda, the Pāṇinīya Śikṣā, Bhartṛhari's Vākyapadīya and the Śaiva–Śākta tradition describe the four stages of Vāk — from unmanifest Parā to spoken Vaikharī — and why it matters for mantra and Jyotiṣa."
 draft: false
 ---
