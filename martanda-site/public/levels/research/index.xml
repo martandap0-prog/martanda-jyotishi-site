@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Research on Mārtaṇḍa Jyotiṣī</title>
+		<link>http://localhost:1313/levels/research/</link>
+		<description>Recent content in Research on Mārtaṇḍa Jyotiṣī</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/levels/research/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Four Levels of Speech — Parā, Paśyantī, Madhyamā, Vaikharī</title>
+				<link>http://localhost:1313/posts/the-four-levels-of-speech/</link>
+				<pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/the-four-levels-of-speech/</guid>
+				<description>How the Ṛgveda, the Pāṇinīya Śikṣā, Bhartṛhari&#39;s Vākyapadīya and the Śaiva–Śākta tradition describe the four stages of Vāk — from unmanifest Parā to spoken Vaikharī — and why it matters for mantra and Jyotiṣa.</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Beginner on Mārtaṇḍa Jyotiṣī</title>
+		<link>http://localhost:1313/levels/beginner/</link>
+		<description>Recent content in Beginner on Mārtaṇḍa Jyotiṣī</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 21 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/levels/beginner/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How to Read a Horoscope - Explained From Absolute Zero</title>
+				<link>http://localhost:1313/posts/how-to-read-a-horoscope---explained-from-absolute-zero/</link>
+				<pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/how-to-read-a-horoscope---explained-from-absolute-zero/</guid>
+				<description>No prior knowledge assumed. If you&#39;ve ever nodded along when someone mentioned their &#39;7th house&#39; without having any idea what that meant, this is for you. What a Horoscope Actually...</description>
+			</item>
+			<item>
+				<title>What Is Vedic Jyotiṣa, and How Is It Different from Western Astrology?</title>
+				<link>http://localhost:1313/posts/what-is-vedic-jyotisa-and-how-is-it-different-from-western-astrology/</link>
+				<pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/what-is-vedic-jyotisa-and-how-is-it-different-from-western-astrology/</guid>
+				<description>A worked example: why the Sun in your Vedic chart may sit one sign earlier than in your Western horoscope If you&#39;ve ever compared your Western sun sign to your...</description>
+			</item>
+	</channel>
+</rss>
