@@ -7,12 +7,17 @@ summary: "How the Ṛgveda, the Pāṇinīya Śikṣā, Bhartṛhari's Vākyapad
 draft: false
 ---
 
-Speech (*vāk*) unfolds in four stages, from the unmanifest **Parā** to spoken **Vaikharī**. The teaching comes in three layers. The Veda says speech has four quarters, three of them hidden. Bhartṛhari, the philosopher of grammar, names three levels: Paśyantī, Madhyamā and Vaikharī. The Tantric and Śaiva tradition adds **Parā** as their source. Together they describe a single path: desire → thought → word → sound.
+**परा · पश्यन्ती · मध्यमा · वैखरी**
+
+Speech (*vāk*, वाक्) unfolds in four stages, from the unmanifest **Parā** to spoken **Vaikharī**. The teaching comes in three layers. The Veda says speech has four quarters, three of them hidden. Bhartṛhari, the philosopher of grammar, names three levels: Paśyantī, Madhyamā and Vaikharī. The Tantric and Śaiva tradition adds **Parā** as their source. Together they describe a single path: desire → thought → word → sound.
 
 ## 1. Vedic roots
 
 **Ṛgveda 1.164.45** (the Asya Vāmīya hymn of Dīrghatamas) is the foundational verse:
 
+> चत्वारि वाक् परिमिता पदानि तानि विदुर्ब्राह्मणा ये मनीषिणः ।\
+> गुहा त्रीणि निहिता नेङ्गयन्ति तुरीयं वाचो मनुष्या वदन्ति ॥
+>
 > *catvāri vāk parimitā padāni tāni vidur brāhmaṇā ye manīṣiṇaḥ |*\
 > *guhā trīṇi nihitā neṅgayanti turīyaṃ vāco manuṣyā vadanti ||*
 
@@ -26,12 +31,21 @@ Speech (*vāk*) unfolds in four stages, from the unmanifest **Parā** to spoken 
 
 The "levels of consciousness" reading is a later one.
 
-**Ṛgveda 10.71.4** (the Jñāna Sūkta): *uta tvaḥ paśyan na dadarśa vācam, uta tvaḥ śṛṇvan na śṛṇoty enām*. "One who looks does not see Speech; one who listens does not hear her." To the one she favours, Vāk reveals herself "as a loving wife to her husband." This is where the idea of *seeing* speech begins, the seed of the name **Paśyantī**.
+**Ṛgveda 10.71.4** (the Jñāna Sūkta):
+
+> उत त्वः पश्यन्न ददर्श वाचमुत त्वः शृण्वन्न शृणोत्येनाम् ।\
+> *uta tvaḥ paśyan na dadarśa vācam, uta tvaḥ śṛṇvan na śṛṇoty enām*
+
+"One who looks does not see Speech; one who listens does not hear her." To the one she favours, Vāk reveals herself "as a loving wife to her husband." This is where the idea of *seeing* speech begins, the seed of the name **Paśyantī**.
 
 **Ṛgveda 10.125** (the Vāk or Devī Sūkta): Vāk speaks as the goddess who carries the gods, enters all beings, and "breathes forth like the wind." She is the śakti of speech, later identified with Sarasvatī.
 
 ## 2. How speech is produced: Pāṇinīya Śikṣā (verses 6–7)
 
+> आत्मा बुद्ध्या समेत्यार्थान्मनो युङ्क्ते विवक्षया ।\
+> मनः कायाग्निमाहन्ति स प्रेरयति मारुतम् ॥\
+> मारुतस्तूरसि चरन्मन्द्रं जनयति स्वरम् ।
+>
 > *ātmā buddhyā sametyārthān mano yuṅkte vivakṣayā |*\
 > *manaḥ kāyāgnim āhanti sa prerayati mārutam ||*\
 > *mārutas tūrasi caran mandraṃ janayati svaram |*
@@ -56,12 +70,20 @@ Bhartṛhari (around the 5th century) treats language itself as Brahman (Śabda-
 
 - **Somānanda** (Śivadṛṣṭi, ch. 2) criticised the idea of Paśyantī as the ultimate.
 - **Utpaladeva** and **Abhinavagupta** placed **Parā Vāk** above it (Parātrīśikā-vivaraṇa, Tantrāloka). Parā is Śiva's own self-aware consciousness (*vimarśa*), the "I" of the Supreme, in which the whole alphabet (*mātṛkā*) lies as pure potential.
-- **Lalitā Sahasranāma** (names 366–371) names the Goddess as all four: *parā pratyakcitīrūpā paśyantī paradevatā | madhyamā vaikharīrūpā bhaktamānasahaṃsikā ||*. Bhāskararāya's commentary, the Saubhāgya-bhāskara, explains each name as one level of speech.
+- **Lalitā Sahasranāma** (names 366–371) names the Goddess as all four:
+
+    > परा प्रत्यक्चितीरूपा पश्यन्ती परदेवता ।\
+    > मध्यमा वैखरीरूपा भक्तमानसहंसिका ॥
+    >
+    > *parā pratyakcitīrūpā paśyantī paradevatā |*\
+    > *madhyamā vaikharīrūpā bhaktamānasahaṃsikā ||*
+
+    Bhāskararāya's commentary, the Saubhāgya-bhāskara, explains each name as one level of speech.
 - **Śāradātilaka (ch. 1)** and **Yoga-kuṇḍalī Upaniṣad (ch. 3)** place the four levels in the body, rising with Kuṇḍalinī. The Upaniṣad puts Parā in the mūlādhāra, Paśyantī at the navel, Madhyamā in the heart and Vaikharī in the throat.
 
 ## 5. The four levels side by side
 
-| | Parā | Paśyantī | Madhyamā | Vaikharī |
+| | Parā परा | Paśyantī पश्यन्ती | Madhyamā मध्यमा | Vaikharī वैखरी |
 | --- | --- | --- | --- | --- |
 | **Meaning** | supreme, beyond | "the seeing one" | "the middle one" | "the coarse" or "fully spread out" |
 | **Nature** | unmanifest; pure consciousness and pure potential | word and meaning still one; seen, not spoken | thought-speech; words take form in the mind | audible, articulated speech |
