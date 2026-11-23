@@ -8,6 +8,7 @@ tags: ["Meṣa", "Aries", "Rāśi", "Maṅgala", "Nakṣatra", "Video"]
 categories: ["Rāśis"]
 author: "Mārtaṇḍa Jyotiṣī"
 images: ["/images/posts/mesha-thumbnail.jpg"]
+levels: ["beginner"]
 ---
 
 Every journey through the zodiac begins with a spark. That beginning is **Meṣa**, the Ram, the first of the twelve rāśis.
