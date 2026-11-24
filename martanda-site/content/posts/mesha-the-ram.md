@@ -14,6 +14,7 @@ levels: ["beginner"]
 Every journey through the zodiac begins with a spark. That beginning is **Meṣa**, the Ram, the first of the twelve rāśis.
 
 {{< youtube kyDuig1dflA >}}
+
 ## At a glance
 
 | | |
