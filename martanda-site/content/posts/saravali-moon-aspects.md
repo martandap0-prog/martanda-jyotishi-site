@@ -2,7 +2,7 @@
 title: "Sārāvalī on the Moon: Planetary Aspects in the Twelve Signs"
 date: 2026-11-15
 tags: ["Saravali", "Kalyana-Varma", "Moon", "Chandra", "Graha-Drishti", "Aspects", "Rasi"]
-levels: ["intermediate"]
+levels: ["research"]
 summary: "All 72 verses of Sārāvalī chapter 23 on the Moon aspected by each graha in each rāśi — with the Sanskrit, transliteration, key words, meaning and the astrological logic behind every result."
 draft: false
 ---
