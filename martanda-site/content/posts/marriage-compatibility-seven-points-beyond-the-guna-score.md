@@ -21,7 +21,9 @@ Both charts are given below in the North Indian style (houses fixed, Lagna at th
 
 ### Man A — Cancer (Karka) Lagna
 
-![Man A, Rāśi chart in North and South Indian styles](/images/posts/marriage-compatibility-seven-points-beyond-the-guna-score/man-a-chart.png)
+<img src="/images/posts/marriage-compatibility-seven-points-beyond-the-guna-score/man-a-north.png" alt="Man A, North Indian chart" style="display:block; width:100%; max-width:700px; margin:1.5rem auto;">
+
+<img src="/images/posts/marriage-compatibility-seven-points-beyond-the-guna-score/man-a-south.png" alt="Man A, South Indian chart" style="display:block; width:100%; max-width:700px; margin:1.5rem auto;">
 
 | House | Sign | Grahas |
 | --- | --- | --- |
@@ -36,7 +38,9 @@ Both charts are given below in the North Indian style (houses fixed, Lagna at th
 
 ### Wife B — Virgo (Kanyā) Lagna
 
-![Wife B, Rāśi chart in North and South Indian styles](/images/posts/marriage-compatibility-seven-points-beyond-the-guna-score/wife-b-chart.png)
+<img src="/images/posts/marriage-compatibility-seven-points-beyond-the-guna-score/wife-b-north.png" alt="Wife B, North Indian chart" style="display:block; width:100%; max-width:700px; margin:1.5rem auto;">
+
+<img src="/images/posts/marriage-compatibility-seven-points-beyond-the-guna-score/wife-b-south.png" alt="Wife B, South Indian chart" style="display:block; width:100%; max-width:700px; margin:1.5rem auto;">
 
 | House | Sign | Grahas |
 | --- | --- | --- |
