@@ -258,3 +258,72 @@ header.site-header .header-content {
   0%, 100% { opacity: 0.25; transform: scale(0.85); }
   50% { opacity: 1; transform: scale(1.15); }
 }
+/* ---------- Consultation form ---------- */
+.consult-intro { font-size: 1.08rem; max-width: 640px; }
+.consult-form { margin-top: 1.5rem; }
+.consult-form fieldset {
+  border: 1px solid var(--gold-light);
+  border-radius: 6px;
+  background: #fff;
+  padding: 1rem 1.2rem 0.4rem;
+  margin: 0 0 1.4rem;
+}
+.consult-form legend {
+  color: var(--peacock-dark);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 0 0.4rem;
+}
+.consult-form label {
+  display: block;
+  margin-bottom: 0.9rem;
+  font-weight: bold;
+  color: var(--peacock-deep);
+  font-size: 0.97rem;
+}
+.consult-form input[type=text],
+.consult-form input[type=email],
+.consult-form input[type=tel],
+.consult-form input[type=date],
+.consult-form input[type=time],
+.consult-form select,
+.consult-form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 0.3rem;
+  padding: 0.6rem 0.7rem;
+  font: inherit;
+  font-weight: normal;
+  color: var(--ink);
+  background: var(--cream);
+  border: 1px solid #cfc6a6;
+  border-radius: 4px;
+}
+.consult-form input:focus,
+.consult-form select:focus,
+.consult-form textarea:focus {
+  outline: none;
+  border-color: var(--peacock);
+  box-shadow: 0 0 0 2px rgba(11,110,127,0.15);
+}
+.consult-form .row { display: flex; gap: 1rem; flex-wrap: wrap; }
+.consult-form .row > label { flex: 1 1 220px; }
+.consult-form .consent { font-weight: normal; font-size: 0.95rem; }
+.consult-form .consent input { margin-right: 0.4rem; }
+.consult-form .req { color: #9b2c2c; }
+.consult-form .hp-field { display: none; }
+.consult-btn {
+  display: inline-block;
+  background: var(--peacock);
+  color: #fff !important;
+  text-decoration: none;
+  font: inherit;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0.75rem 1.8rem;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.consult-btn:hover { background: var(--peacock-dark); }
+.consult-note { font-size: 0.88rem; color: #666; }
