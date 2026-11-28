@@ -1,0 +1,108 @@
+{{ define "main" }}
+<article class="post consult">
+  <h1>{{ .Title }}</h1>
+  <p class="consult-intro">
+    A chart can only be read as well as the birth details behind it. Please share your
+    date, time and place of birth below, along with what you would like to look at.
+    I personally review every request and will write back to you by email with the next steps.
+  </p>
+
+  <form name="consultation" method="POST" action="{{ "/consultation/thank-you/" | relURL }}"
+        data-netlify="true" netlify-honeypot="company" class="consult-form">
+    <input type="hidden" name="form-name" value="consultation">
+    <p class="hp-field"><label>Leave this empty: <input name="company" tabindex="-1" autocomplete="off"></label></p>
+
+    <fieldset>
+      <legend>About you</legend>
+      <label>Full name <span class="req">*</span>
+        <input type="text" name="name" required autocomplete="name">
+      </label>
+      <div class="row">
+        <label>Email <span class="req">*</span>
+          <input type="email" name="email" required autocomplete="email">
+        </label>
+        <label>Phone / WhatsApp
+          <input type="tel" name="phone" autocomplete="tel" placeholder="+91 …">
+        </label>
+      </div>
+      <label>Gender
+        <select name="gender">
+          <option value="">— Select —</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Prefer not to say</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Birth details</legend>
+      <div class="row">
+        <label>Date of birth <span class="req">*</span>
+          <input type="date" name="birth_date" required>
+        </label>
+        <label>Time of birth <span class="req">*</span>
+          <input type="time" name="birth_time" required>
+        </label>
+      </div>
+      <label>How accurate is the birth time? <span class="req">*</span>
+        <select name="time_accuracy" required>
+          <option value="">— Select —</option>
+          <option>Exact (birth certificate / hospital record)</option>
+          <option>Approximate (within about 15 minutes)</option>
+          <option>Rough (family memory, within an hour or two)</option>
+          <option>Not known</option>
+        </select>
+      </label>
+      <label>Place of birth — town / city <span class="req">*</span>
+        <input type="text" name="birth_city" required placeholder="e.g. Varanasi">
+      </label>
+      <div class="row">
+        <label>State / district
+          <input type="text" name="birth_state" placeholder="e.g. Uttar Pradesh">
+        </label>
+        <label>Country <span class="req">*</span>
+          <input type="text" name="birth_country" required value="India">
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your consultation</legend>
+      <label>Main area of interest <span class="req">*</span>
+        <select name="topic" required>
+          <option value="">— Select —</option>
+          <option>General life reading</option>
+          <option>Career &amp; work</option>
+          <option>Marriage &amp; relationships</option>
+          <option>Compatibility (two charts)</option>
+          <option>Education</option>
+          <option>Children &amp; family</option>
+          <option>Finance &amp; property</option>
+          <option>Spiritual path &amp; sādhana</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>Your question(s)
+        <textarea name="question" rows="6" placeholder="Tell me what is on your mind. For a compatibility reading, add the other person's date, time and place of birth here."></textarea>
+      </label>
+      <label>Preferred mode
+        <select name="mode">
+          <option>Written reading by email</option>
+          <option>Video call</option>
+          <option>Phone call</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <label class="consent">
+      <input type="checkbox" name="consent" value="yes" required>
+      I agree that my birth details and question may be used only to prepare my consultation.
+      They will be kept confidential and never shared or published. <span class="req">*</span>
+    </label>
+
+    <button type="submit" class="consult-btn">Send My Request →</button>
+    <p class="consult-note">Fields marked <span class="req">*</span> are required.</p>
+  </form>
+</article>
+{{ end }}
