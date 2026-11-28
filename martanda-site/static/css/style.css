@@ -10,9 +10,16 @@
   --cream: #FBFAF6;
   --ink: #2A2A2A;
 }
+
+/* ---------- Sanskrit (Devanagari) in Shobhika ---------- */
+@font-face { font-family: 'Shobhika'; src: url('/fonts/Shobhika-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; unicode-range: U+0900-097F, U+1CD0-1CFF, U+A8E0-A8FF, U+25CC; }
+@font-face { font-family: 'Shobhika'; src: url('/fonts/Shobhika-Regular.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; unicode-range: U+0900-097F, U+1CD0-1CFF, U+A8E0-A8FF, U+25CC; }
+@font-face { font-family: 'Shobhika'; src: url('/fonts/Shobhika-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; unicode-range: U+0900-097F, U+1CD0-1CFF, U+A8E0-A8FF, U+25CC; }
+@font-face { font-family: 'Shobhika'; src: url('/fonts/Shobhika-Bold.woff2') format('woff2'); font-weight: 700; font-style: italic; font-display: swap; unicode-range: U+0900-097F, U+1CD0-1CFF, U+A8E0-A8FF, U+25CC; }
+
 * { box-sizing: border-box; }
 body {
-  font-family: 'Gentium Book Plus', 'Gentium Book Basic', Georgia, 'Times New Roman', serif;
+  font-family: 'Shobhika', 'Gentium Book Plus', 'Gentium Book Basic', Georgia, 'Times New Roman', serif;
   background: var(--cream);
   color: var(--ink);
   margin: 0;
@@ -327,3 +334,14 @@ header.site-header .header-content {
 }
 .consult-btn:hover { background: var(--peacock-dark); }
 .consult-note { font-size: 0.88rem; color: #666; }
+
+/* Source line at the end of a quoted verse */
+article.post blockquote .src {
+  display: block;
+  text-align: right;
+  font-size: 0.78rem;
+  font-style: normal;
+  color: #6b6b6b;
+  line-height: 1.4;
+}
+article.post blockquote p { margin: 0.35rem 0; }
